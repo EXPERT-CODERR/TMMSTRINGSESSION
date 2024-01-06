@@ -12,22 +12,22 @@ async def start(bot: Client, msg: Message):
     me2 = (await bot.get_me()).mention
     await bot.send_message(
         chat_id=msg.chat.id,
-        text=f"""𝐇𝐞𝐲 {msg.from_user.mention}🍷,
+        text=f"""𝐇𝐞𝐲 {msg.from_user.mention}🎊,
 
 𝐈 𝐀𝐦 {me2},
 𝐓𝐑𝐔𝐒𝐓𝐄𝐃 𝐒𝐓𝐑𝐈𝐍𝐆 𝐆𝐄𝐍𝐄𝐑𝐀𝐓𝐎𝐑 𝐁𝐎𝐓.
 𝐅𝐔𝐋𝐋𝐘 𝐒𝐀𝐅𝐄 & 𝐒𝐄𝐂𝐔𝐑𝐄.
 𝐍𝐎  𝐄𝐑𝐑𝐎𝐑.
 
-𝐌𝐚𝐝𝐞 𝐁𝐲  : [𝐓𝐄𝐀𝐌 𝐃𝐀𝐗𝐗](tg://user?id={OWNER_ID}) !""",
+𝐌𝐚𝐝𝐞 𝐁𝐲  : [𝗧𝗘𝗔𝗠 𝗧𝗠𝗠](tg://user?id={OWNER_ID}) !""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton(text="🌿𝐆𝐄𝐍𝐄𝐑𝐀𝐓𝐄 𝐒𝐓𝐑𝐈𝐍𝐆🌿", callback_data="generate")
+                    InlineKeyboardButton(text="🌺𝐆𝐄𝐍𝐄𝐑𝐀𝐓𝐄 𝐒𝐓𝐑𝐈𝐍𝐆🌺", callback_data="generate")
                 ],
                 [
-                    InlineKeyboardButton(" 𝐒𝐮𝐩𝐩𝐨𝐫𝐭", url="https://t.me/AllPremiumCc"),
-                    InlineKeyboardButton("𝐎𝐟𝐟𝐢𝐜𝐞", url="https://t.me/CYBERDAXXX")
+                    InlineKeyboardButton(" 𝐒𝐮𝐩𝐩𝐨𝐫𝐭", url="https://t.me/tmm_heroku_world"),
+                    InlineKeyboardButton("𝐎𝐟𝐟𝐢𝐜𝐞", url="https://t.me/MOH_MAYA_NETWORK")
                 ]
             ]
         ),
